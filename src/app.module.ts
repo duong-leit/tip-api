@@ -1,6 +1,8 @@
 import { Module } from '@nestjs/common';
-import { AppController, CalculatorController } from './app.controller';
-import { AppService, CalculatorService } from './services/app.service';
+import { CalculatorController } from './controllers/calculator.controller';
+import { AppController } from './controllers/app.controller';
+import { AppService } from './services/app.service';
+import { CalculatorService } from './services/calculate.service';
 
 @Module({
   imports: [],
